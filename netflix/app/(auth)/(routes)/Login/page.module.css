@@ -1,0 +1,42 @@
+.LoginParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginParent_Row {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8));
+    color: #fff;
+    padding: 30px;
+    border-radius: 9px;
+}
+
+.LoginParent_Row h6 {
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.LoginBtn {
+    background: var(--main);
+    width: 100%;
+    color: #fff;
+    font-weight: 800;
+    padding: 5px 17px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.CustomMessage {
+    margin-top: 20px;
+    font-weight: 700;
+    color: #ccc;
+}
+
+.CustomMessage span {
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 800;
+}

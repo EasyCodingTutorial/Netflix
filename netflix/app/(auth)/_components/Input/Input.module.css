@@ -1,0 +1,46 @@
+.InputGroup {
+    position: relative;
+    padding: 16px 0 0;
+    margin-top: 10px;
+    width: 450px;
+}
+
+.Input {
+    width: 100%;
+    background: transparent;
+    border-bottom: 1px solid #9b9b9b;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 800;
+    padding: 7px 0;
+    margin-block: 20px;
+}
+
+.Input:placeholder-shown~.Input_Label {
+    font-size: 16px;
+    cursor: text;
+    top: 20px;
+}
+
+.Input::placeholder {
+    color: transparent;
+}
+
+.Input_Label {
+    position: absolute;
+    top: 0;
+    display: block;
+    font-size: 16px;
+    color: #9b9b9b;
+    transition: 0.2s;
+    font-weight: 800;
+}
+
+.Input:focus~.Input_Label {
+    position: absolute;
+    top: 0;
+    display: block;
+    font-size: 16px;
+    transform: 0.2s;
+    transition: 0.2s;
+}

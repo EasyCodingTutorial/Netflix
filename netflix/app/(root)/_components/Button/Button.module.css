@@ -1,0 +1,8 @@
+.Button {
+    width: max-content;
+    padding: 3px 14px;
+    border-radius: 9px;
+    background: var(--main);
+    color: #fff;
+    font-weight: 800;
+}

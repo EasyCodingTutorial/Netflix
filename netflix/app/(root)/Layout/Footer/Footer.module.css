@@ -1,0 +1,53 @@
+.Footer {
+    background-color: #141414;
+    padding-inline: 200px;
+    padding-block: 40px;
+}
+
+.Footer h6 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-block: 30px;
+}
+
+.Footer h6 span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Footer .FooterRow {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap: 10px;
+}
+
+.Footer .FooterRow .FooterBox {
+    padding: 5px;
+}
+
+.Footer .FooterBox a {
+    display: block;
+    color: #fff;
+    margin-block: 10px;
+}
+
+
+/* For Custom */
+.FooterRow_Two {
+    border-top: 0.2px dashed #ccc;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FooterRow_Two h5 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #7a7878;
+}
+
+.FooterRow_Two a {
+    color: #7a7878;
+    margin-inline: 20px;
+    font-size: 20px;
+}

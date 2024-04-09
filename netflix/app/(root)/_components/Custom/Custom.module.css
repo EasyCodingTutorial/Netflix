@@ -1,0 +1,33 @@
+.Custom,
+.CustomImage {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-bottom: 7px solid #797676;
+}
+
+.Custom video {
+    height: 800px;
+    width: 800px;
+}
+
+.Custom .CustomContent {
+    margin-top: 300px;
+}
+
+.CustomImage .CustomContentImage {
+    margin-top: 120px;
+}
+
+.Custom div h6,
+.CustomImage div h6 {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.Custom div p,
+.CustomImage div p {
+    font-size: 25px;
+    color: #807c7c;
+    margin-top: 20px;
+}

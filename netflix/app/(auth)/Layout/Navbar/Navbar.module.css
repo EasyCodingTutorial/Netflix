@@ -1,0 +1,9 @@
+.Navbar {
+    padding-inline: 200px;
+    padding-block: 10px;
+}
+
+.Navbar a img {
+    height: 150px;
+    width: 150px;
+}
